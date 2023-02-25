@@ -13,7 +13,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 }
 
 Header.defaultProps = {
-    title: 'To Do Tracker',
+    title: 'To Do List Tracker',
 }
 
 Header.propTypes = {
