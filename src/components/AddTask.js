@@ -9,7 +9,7 @@ const onSubmit = (e) => {
     e.preventDefault()
 
     if(!text) {
-        alert('Please add task')
+        alert('Please add event')
         return
     }
 
@@ -24,10 +24,10 @@ return (
   <form className='add-form' onSubmit=
   {onSubmit}>
     <div className='form-control'>
-     <label>Task</label>
+     <label>Bucket-List Item</label>
      <input 
         type='text'
-        placeholder='Add Task'
+        placeholder='Add Item'
         value={text}
         onChange={(e) => setText(e.target.value)}
     />
