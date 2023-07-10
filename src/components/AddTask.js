@@ -45,7 +45,7 @@ return (
       </div>
       <div className='form-control
       form-control-check'>
-        <label>Set Reminder</label>
+        <label class ="reminder">Set Reminder</label>
         <input
             type='checkbox'
             checked={reminder}
